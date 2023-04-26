@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: floralwhite;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+header{
+    height: 60px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: floralwhite;
+    height: 100%;
+    position: relative;
+}
+header nav #logo h1{
+    font-size: 28px;
+    margin-left: 40px;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+}
+header nav ul li{
+    margin-top: 10px;
+}
+header nav ul li a{
+    padding: 20px 20px;
+    font-size: 12px;
+}
+header nav .ask-us{
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+header nav .ask-us a{
+    background-color: orange;
+    display: block;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.scroll-to-top{
+    background-color: navy;
+    color: floralwhite;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+.modal{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: floralwhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
